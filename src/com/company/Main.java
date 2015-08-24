@@ -7,6 +7,6 @@ public class Main {
         System.out.println("the free memory of JVM before garbage collection is " + r.freeMemory() );
         r.gc();
         System.out.println("the free memory after JVM after garbage collection is " + r.freeMemory());
-        
+        //changed line with comment
     }
 }
